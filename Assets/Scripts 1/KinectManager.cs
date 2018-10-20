@@ -80,7 +80,7 @@ public class KinectManager : MonoBehaviour
                     }
                     else
                     {
-                        PaddlePosition = RescalingToRangesB(-1, 1, -8, 8, body.Lean.X);
+                        PaddlePosition = RescalingToRangesB(-0.5f, 0.5f, -8, 8, body.Lean.X);
                         //handXText.text = PaddlePosition.ToString();
                     }
                 }

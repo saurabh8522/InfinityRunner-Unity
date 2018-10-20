@@ -16,7 +16,7 @@ public class DeathCollision : MonoBehaviour {
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag.Equals("Ethan")){
-           // Debug.Log("Dead");
+           //Debug.Log("Dead");
             d.ToggleEndMenu(PlayerControl.score);
            // Debug.Log("ASDF");
         }
